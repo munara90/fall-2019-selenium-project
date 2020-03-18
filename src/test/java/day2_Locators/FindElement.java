@@ -8,38 +8,30 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FindElement {
     public static void main(String[] args) throws Exception{
-       WebDriverManager.chromedriver().setup();
-       WebDriver driver=new ChromeDriver();
-
-       //go to cybertek okta login page
-        // write email to the text box
-        driver.get("https://cybertekschool.okta.com/");
 
 
-        /*
+       /*
+       go to cybertek okta login page
+        "https://cybertekschool.okta.com/"
         1. find the text box first -->findelement() from WebDriver
         2. write email to the text box
-         */
+        3. write your password to the password text box
+        */
 
-        String word="java";
-        Thread.sleep(3000);
-        WebElement emailBox=driver.findElement(By.id("okta-signin-username"));
-        //WebElement is a interface, to store element
-        emailBox.sendKeys("munara682@gmail.com");
-        driver.manage().window().maximize();
-        Thread.sleep(5000);
+       WebDriverManager.chromedriver().setup();
+       WebDriver driver = new ChromeDriver();
+       driver.get("https://cybertekschool.okta.com/");
+       Thread.sleep(2000);
+      WebElement userNmae= driver.findElement(By.id("okta-signin-username"));
+      userNmae.sendKeys("munara682@gmail.com");
+      Thread.sleep(4000);
 
-        //write your password to the password text box
-        //id
-        driver.findElement(By.id("okta-signin-password")).sendKeys("Abdulla1970");
-        Thread.sleep(5000);
-
-
-       driver.close();
+      WebElement password=driver.findElement(By.id("okta-signin-password"));
+      password.sendKeys("Abdulla1970");
+        Thread.sleep(4000);
 
 
-
-
+        driver.close();
 
 
 
