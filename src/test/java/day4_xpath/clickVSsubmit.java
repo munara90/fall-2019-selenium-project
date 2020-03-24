@@ -1,7 +1,10 @@
 package day4_xpath;
 
+import com.cybertek.utilites.StringEquals;
+import com.cybertek.utilites.WebDriverFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,26 +22,15 @@ public class clickVSsubmit {
          http://practice.cybertekschool.com/email_sent
 
         */
-         WebDriverManager.chromedriver().setup();
-         WebDriver driver=new ChromeDriver();
-         driver.get(" http://practice.cybertekschool.com/forgot_password");
-         WebElement email=driver.findElement(By.name("email"));
-         email.sendKeys("muna@gmail.com");
+        WebDriver driver=WebDriverFactory.getDriver("chrome");
+        driver.get(" http://practice.cybertekschool.com/forgot_password");
+        driver.findElement(By.name("email")).sendKeys("muna@gmail.com",Keys.ENTER);
+        Thread.sleep(3000);
 
-         WebElement button=driver.findElement(By.id("form_submit"));
-         button.click();
-         Thread.sleep(2000);
-
-         String expectedUrl="http://practice.cybertekschool.com/email_sent";
-         String actualUrl=driver.getCurrentUrl();
-
-         if(expectedUrl.equalsIgnoreCase(actualUrl)) {
-             System.out.println("Pass");
-         }else{
-             System.out.println("Fail");
-             ;
-         }
-
+        String actualURL= driver.getCurrentUrl();
+        Thread.sleep(4000);
+        StringEquals.verifyEquals(actualURL, " http://practice.cybertekschool.com/email_sent");
+        Thread.sleep(2000);
         driver.close();
 
     }

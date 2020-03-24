@@ -1,10 +1,13 @@
 package day3_Locators2;
 
+import com.cybertek.utilites.WebDriverFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import javax.swing.plaf.TableHeaderUI;
 
 public class GetAttributeValue {
     public static void main(String[] args) throws InterruptedException {
@@ -23,20 +26,28 @@ public class GetAttributeValue {
         3. I want to print class attribute's value
          */
 
-     WebDriverManager.chromedriver().setup();
-     WebDriver driver=new ChromeDriver();
-     driver.get("http://practice.cybertekschool.com/login");
+    WebDriver driver= WebDriverFactory.getDriver("chrome");
+    driver.get("http://practice.cybertekschool.com/login");
+    WebElement username=driver.findElement(By.name("username"));
+    username.sendKeys("konkow");
+    String valueOfType=username.getAttribute("type");
+        System.out.println("valueOfType= "+valueOfType); //valueOfType= text
+        Thread.sleep(2000);
 
-     WebElement username=driver.findElement(By.name("username"));
-     String text=username.getAttribute("type");
-        System.out.println("Value of type =" +text);
+        WebElement password=driver.findElement(By.name("password"));
+        password.sendKeys("jagu842");
+        String value=password.getAttribute("type");
+        System.out.println("value= "+value); //value= password
+        Thread.sleep(2000);
+
+    WebElement button=driver.findElement(By.id("wooden_spoon"));
+    String valueOf=button.getAttribute("type");
+        Thread.sleep(2000);
+        System.out.println("valueOf = " + valueOf); //valueOf = submit
+    button.submit();
 
 
-        WebElement loginBttn=driver.findElement(By.id("wooden_spoon"));
-        String classAtt=loginBttn.getAttribute("class");
-        System.out.println("Value of Class attribute= " +classAtt);
-
-        driver.close();
+driver.close();
 
 
     }

@@ -16,7 +16,7 @@ public class ClassNameExample {
         //classname does not work if the value of the class attribute has a space
         // click the login bttn
         //this loginBttn fails cuz of space, look for the exception fr console
-        //better user diff locator, like tag name
+        //better use diff locator, like tag name
         WebElement loginBttn=driver.findElement(By.className("btn btn-primary"));
         loginBttn.click();
 
