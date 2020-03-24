@@ -35,7 +35,7 @@ public class TestNGAssertionsTest {
         //verify not equal
         String expected = "one";
         String actual = "two";
-        Assert.assertNotEquals(expected, actual);
+        Assert.assertNotEquals(expected, actual); //passes
         Assert.assertNotEquals(1,2); //passes
         //it passes if not equals
     }
@@ -55,8 +55,24 @@ public class TestNGAssertionsTest {
     }
     @Test
     public  void Test5(){
-        //verify that url is equal to google.com
+        // verify that url is EQUAL to https://www.google.com/
 
-        String expected="";
+        String expected="https://www.google.com/";
+        String actual = "https://www.google.com/";
+        Assert.assertEquals(expected, actual);
+
+        // verify that title starts with java
+        String expected1 = "java";
+        String actual1 = "java - Google Search";
+
+        Assert.assertTrue(actual1.startsWith(expected1));
+
+    }
+    @Test
+    public void fromHamid (){
+        int a =100;
+        int b = 200;
+        Assert.assertTrue(b>a); // this line is true but
+        Assert.assertTrue(a>b); /// false
     }
 }

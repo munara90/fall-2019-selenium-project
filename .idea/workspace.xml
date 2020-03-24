@@ -3,25 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="be89a06f-26ad-4c8d-b6bc-5d91e54ef17b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/Office_Hours/OfficeHours_03_17_2020.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/Office_Hours/OfficeHours_03_17_2020.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilites/StringEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilites/StringEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day3_Locators2/GetAttributeValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day3_Locators2/GetAttributeValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day3_Locators2/LinkText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day3_Locators2/LinkText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day4_xpath/TextMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day4_xpath/TextMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day4_xpath/XpathPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day4_xpath/XpathPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day4_xpath/clickVSsubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day4_xpath/clickVSsubmit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day5_xpath/ClassNameExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day5_xpath/ClassNameExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day5_xpath/XpathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day5_xpath/XpathDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day6_css/CssExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day6_css/CssExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/Office_Hours/OfficeHours_03_17_2020.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/Office_Hours/OfficeHours_03_17_2020.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilites/StringEquals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilites/StringEquals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day3_Locators2/GetAttributeValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day3_Locators2/GetAttributeValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day3_Locators2/LinkText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day3_Locators2/LinkText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day4_xpath/TextMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day4_xpath/TextMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day4_xpath/XpathPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day4_xpath/XpathPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day4_xpath/clickVSsubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day4_xpath/clickVSsubmit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day5_xpath/XpathDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day5_xpath/XpathDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day6_css/CssExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day6_css/CssExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day10_WebElement/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day9_testNG_intro/BeforeAndAfterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day9_testNG_intro/BeforeAndAfterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day9_testNG_intro/TestNGAssertionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day9_testNG_intro/TestNGAssertionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +171,7 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="119" y="123" width="542" height="611" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.827@0.23.1440.827" timestamp="1584489337356" />
-    <state width="1063" height="116" key="GridCell.Tab.0.bottom" timestamp="1585053688868">
+    <state width="1063" height="116" key="GridCell.Tab.0.bottom" timestamp="1585053707882">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="962" height="131" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1584558973960" />
@@ -198,7 +182,7 @@
     <state width="925" height="126" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.-462.1920.1057@0.23.1440.828" timestamp="1583772469091" />
     <state width="1063" height="116" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585053197515" />
     <state width="934" height="153" key="GridCell.Tab.0.bottom/0.23.1440.829/1440.-462.1920.1057@0.23.1440.829" timestamp="1583681898335" />
-    <state width="1063" height="116" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1585053688868" />
+    <state width="1063" height="116" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1585053707882" />
     <state width="930" height="109" key="GridCell.Tab.0.bottom/0.23.1440.830/1440.-462.1920.1057@0.23.1440.830" timestamp="1583881523827" />
     <state width="987" height="144" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1584985012481" />
     <state width="930" height="109" key="GridCell.Tab.0.bottom/0.23.1440.831/1440.-462.1920.1057@0.23.1440.831" timestamp="1583885830099" />
@@ -223,7 +207,7 @@
     <state width="1227" height="154" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-462.1920.994@0.23.1440.877" timestamp="1583287323314" />
     <state width="1227" height="123" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-462.1920.995@0.23.1440.877" timestamp="1583287918032" />
     <state width="999" height="92" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-462.1920.996@0.23.1440.877" timestamp="1583284208929" />
-    <state width="1063" height="116" key="GridCell.Tab.0.center" timestamp="1585053688867">
+    <state width="1063" height="116" key="GridCell.Tab.0.center" timestamp="1585053707881">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="962" height="131" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1584558973959" />
@@ -234,7 +218,7 @@
     <state width="925" height="126" key="GridCell.Tab.0.center/0.23.1440.828/1440.-462.1920.1057@0.23.1440.828" timestamp="1583772469088" />
     <state width="1063" height="116" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1585053197514" />
     <state width="934" height="153" key="GridCell.Tab.0.center/0.23.1440.829/1440.-462.1920.1057@0.23.1440.829" timestamp="1583681898333" />
-    <state width="1063" height="116" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1585053688867" />
+    <state width="1063" height="116" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1585053707881" />
     <state width="930" height="109" key="GridCell.Tab.0.center/0.23.1440.830/1440.-462.1920.1057@0.23.1440.830" timestamp="1583881523824" />
     <state width="987" height="144" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1584985012481" />
     <state width="930" height="109" key="GridCell.Tab.0.center/0.23.1440.831/1440.-462.1920.1057@0.23.1440.831" timestamp="1583885830098" />
@@ -259,7 +243,7 @@
     <state width="1227" height="154" key="GridCell.Tab.0.center/0.23.1440.877/1440.-462.1920.994@0.23.1440.877" timestamp="1583287323313" />
     <state width="1227" height="123" key="GridCell.Tab.0.center/0.23.1440.877/1440.-462.1920.995@0.23.1440.877" timestamp="1583287918028" />
     <state width="999" height="92" key="GridCell.Tab.0.center/0.23.1440.877/1440.-462.1920.996@0.23.1440.877" timestamp="1583284208928" />
-    <state width="1063" height="116" key="GridCell.Tab.0.left" timestamp="1585053688866">
+    <state width="1063" height="116" key="GridCell.Tab.0.left" timestamp="1585053707881">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="962" height="131" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1584558973958" />
@@ -270,7 +254,7 @@
     <state width="925" height="126" key="GridCell.Tab.0.left/0.23.1440.828/1440.-462.1920.1057@0.23.1440.828" timestamp="1583772469087" />
     <state width="1063" height="116" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1585053197513" />
     <state width="934" height="153" key="GridCell.Tab.0.left/0.23.1440.829/1440.-462.1920.1057@0.23.1440.829" timestamp="1583681898332" />
-    <state width="1063" height="116" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1585053688866" />
+    <state width="1063" height="116" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1585053707881" />
     <state width="930" height="109" key="GridCell.Tab.0.left/0.23.1440.830/1440.-462.1920.1057@0.23.1440.830" timestamp="1583881523823" />
     <state width="987" height="144" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1584985012480" />
     <state width="930" height="109" key="GridCell.Tab.0.left/0.23.1440.831/1440.-462.1920.1057@0.23.1440.831" timestamp="1583885830097" />
@@ -295,7 +279,7 @@
     <state width="1227" height="154" key="GridCell.Tab.0.left/0.23.1440.877/1440.-462.1920.994@0.23.1440.877" timestamp="1583287323312" />
     <state width="1227" height="123" key="GridCell.Tab.0.left/0.23.1440.877/1440.-462.1920.995@0.23.1440.877" timestamp="1583287918027" />
     <state width="999" height="92" key="GridCell.Tab.0.left/0.23.1440.877/1440.-462.1920.996@0.23.1440.877" timestamp="1583284208927" />
-    <state width="1063" height="116" key="GridCell.Tab.0.right" timestamp="1585053688867">
+    <state width="1063" height="116" key="GridCell.Tab.0.right" timestamp="1585053707881">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="962" height="131" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1584558973959" />
@@ -306,7 +290,7 @@
     <state width="925" height="126" key="GridCell.Tab.0.right/0.23.1440.828/1440.-462.1920.1057@0.23.1440.828" timestamp="1583772469089" />
     <state width="1063" height="116" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1585053197514" />
     <state width="934" height="153" key="GridCell.Tab.0.right/0.23.1440.829/1440.-462.1920.1057@0.23.1440.829" timestamp="1583681898334" />
-    <state width="1063" height="116" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1585053688867" />
+    <state width="1063" height="116" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1585053707881" />
     <state width="930" height="109" key="GridCell.Tab.0.right/0.23.1440.830/1440.-462.1920.1057@0.23.1440.830" timestamp="1583881523826" />
     <state width="987" height="144" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1584985012481" />
     <state width="930" height="109" key="GridCell.Tab.0.right/0.23.1440.831/1440.-462.1920.1057@0.23.1440.831" timestamp="1583885830098" />

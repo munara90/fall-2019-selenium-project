@@ -13,7 +13,7 @@ public class BeforeAndAfterTest {
     public void beforeMethod(){
         System.out.println("\tBefore method");
         //it runs every time
-        //it doent run if nothing after this method
+        //it doesn't run if nothing after this method
 
     }
     @AfterClass
